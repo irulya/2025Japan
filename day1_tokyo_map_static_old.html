@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Day 1 Tokyo Itinerary - April 1, 2025</title>
+    <style>
+        #map {
+            height: 600px;
+            width: 100%;
+        }
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <h2>Day 1 Tokyo Itinerary: Shibuya, Harajuku, Meiji Shrine</h2>
+    <div id="map"></div>
+
+    <script>
+        function initMap() {
+            // Map centered on Shibuya area
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 14,
+                center: { lat: 35.6591, lng: 139.7005 } // Shibuya Crossing as starting point
+            });
+
+            // Markers for each sub-stop
+            const locations = [
+                { title: "Ōkubo Airbnb (Start)", lat: 35.7005, lng: 139.7028 }, // 2-chōme-19-9 Ōkubo
+                { title: "Shibuya Crossing", lat: 35.6591, lng: 139.7005 }, // Iconic scramble
+                { title: "Hachiko Statue", lat: 35.6590, lng: 139.7009 }, // Near Shibuya Station
+                { title: "Center-gai", lat: 35.6600, lng: 139.6995 }, // Central Shibuya alley
+                { title: "Dogenzaka", lat: 35.6578, lng: 139.6980 }, // Slope south of Center-gai
+                { title: "Shibuya Hikarie", lat: 35.6589, lng: 139.7035 }, // East of crossing
+                { title: "Takeshita Street", lat: 35.6710, lng: 139.7038 }, // Harajuku’s kawaii hub
+                { title: "Omotesando", lat: 35.6650, lng: 139.7085 }, // Chic avenue
+                { title: "Tonkatsu Maisen", lat: 35.6690, lng: 139.7065 }, // Near Jingumae
+                { title: "Laforet Harajuku", lat: 35.6698, lng: 139.7050 }, // Fashion fortress
+                { title: "Torii Gates (Meiji Shrine)", lat: 35.6750, lng: 139.6995 }, // South entrance
+                { title: "Sake Barrels (Meiji Shrine)", lat: 35.6755, lng: 139.6985 }, // Along path
+                { title: "Treasure House (Meiji Shrine)", lat: 35.6760, lng: 139.6975 }, // North end
+                { title: "Himawari Sushi (Ōkubo)", lat: 35.7010, lng: 139.7035 } // Near Airbnb
+            ];
+
+            // Add markers
+            locations.forEach(location => {
+                new google.maps.Marker({
+                    position: { lat: location.lat, lng: location.lng },
+                    map: map,
+                    title: location.title
+                });
+            });
+
+            // Optional: Polyline to show walking route (approximate)
+            const routePath = new google.maps.Polyline({
+                path: locations.map(loc => ({ lat: loc.lat, lng: loc.lng })),
+                geodesic: true,
+                strokeColor: "#FF0000",
+                strokeOpacity: 1.0,
+                strokeWeight: 2
+            });
+            routePath.setMap(map);
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeEEhsGZbYf6j8q6sQeuVVUboqklazwwU&callback=initMap" async defer></script>
+</body>
+</html>

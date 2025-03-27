@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Day 1 Tokyo Itinerary - Static Map</title>
+    <style>
+        #map { height: 600px; width: 100%; }
+        html, body { height: 100%; margin: 0; padding: 0; }
+        #stops { margin: 20px 0; }
+        #stops ul { list-style: none; padding: 0; }
+        #stops li { margin: 10px 0; }
+        #stops a { color: blue; text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h2>Day 1 Tokyo Itinerary: Shibuya, Harajuku, Meiji Shrine</h2>
+    <div id="map"></div>
+    <div id="stops">
+        <h3>Itinerary Stops (Click to Navigate in Google Maps)</h3>
+        <ul id="stops-list"></ul>
+    </div>
+
+    <script>
+        function initMap() {
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 14,
+                center: { lat: 35.6591, lng: 139.7005 }
+            });
+
+            const stops = [
+                { name: "Ōkubo Airbnb", lat: 35.7005, lng: 139.7028 },
+                { name: "Shibuya Crossing", lat: 35.6591, lng: 139.7005 },
+                { name: "Hachiko Statue", lat: 35.6590, lng: 139.7009 },
+                { name: "Center-gai", lat: 35.6600, lng: 139.6995 },
+                { name: "Dogenzaka", lat: 35.6578, lng: 139.6980 },
+                { name: "Shibuya Hikarie", lat: 35.6589, lng: 139.7035 },
+                { name: "Takeshita Street", lat: 35.6710, lng: 139.7038 },
+                { name: "Omotesando", lat: 35.6650, lng: 139.7085 },
+                { name: "Tonkatsu Maisen", lat: 35.6690, lng: 139.7065 },
+                { name: "Laforet Harajuku", lat: 35.6698, lng: 139.7050 },
+                { name: "Torii Gates (Meiji Shrine)", lat: 35.6750, lng: 139.6995 },
+                { name: "Sake Barrels (Meiji Shrine)", lat: 35.6755, lng: 139.6985 },
+                { name: "Treasure House (Meiji Shrine)", lat: 35.6760, lng: 139.6975 },
+                { name: "Himawari Sushi (Ōkubo)", lat: 35.7010, lng: 139.7035 }
+            ];
+
+            // Add markers to the map
+            stops.forEach((stop, index) => {
+                new google.maps.Marker({
+                    position: { lat: stop.lat, lng: stop.lng },
+                    map: map,
+                    title: `Stop ${index + 1}: ${stop.name}`
+                });
+            });
+
+            // Populate the stops list with clickable links for directions from previous stop
+            const stopsList = document.getElementById("stops-list");
+            stops.forEach((stop, index) => {
+                const li = document.createElement("li");
+                const coords = `${stop.lat},${stop.lng}`;
+                
+                // For the first stop, link to its location only (no previous stop)
+                if (index === 0) {
+                    const googleMapsLink = `https://www.google.com/maps/search/?api=1&query=${coords}`;
+                    li.innerHTML = `Stop ${index + 1}: ${stop.name} (${coords}) - <a href="${googleMapsLink}" target="_blank">Open in Google Maps</a>`;
+                } else {
+                    // For subsequent stops, link directions from the previous stop to the current stop
+                    const prevStop = stops[index - 1];
+                    const prevCoords = `${prevStop.lat},${prevStop.lng}`;
+                    const googleMapsLink = `https://www.google.com/maps/dir/?api=1&origin=${prevCoords}&destination=${coords}&travelmode=walking`;
+                    li.innerHTML = `Stop ${index + 1}: ${stop.name} (${coords}) - <a href="${googleMapsLink}" target="_blank">Walk from Stop ${index}</a>`;
+                }
+                
+                stopsList.appendChild(li);
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeEEhsGZbYf6j8q6sQeuVVUboqklazwwU&callback=initMap&loading=async" async defer></script>
+</body>
+</html>
