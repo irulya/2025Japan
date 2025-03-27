@@ -277,57 +277,63 @@
             "title": "Hakone Ropeway",
             "description": "Feasibility and details for a morning visit",
             "content": {
-                "intro": "Imagine soaring above Hakone on the Ropeway, with Mount Fuji and Lake Ashi unfolding below. This aerial cable car links Sounzan to Togendai via Owakudani’s volcanic buzz—think steam vents and quirky black eggs. It’s a Hakone highlight, just 1.5 km from Ryuguden (20-25 minute walk or 5-10 minute bus/taxi to Togendai). Operating 9:00 AM-5:00 PM, it runs every 1-2 minutes; costs ¥1,600 one-way or ¥2,900 round-trip (2023 rates, may rise by 2025), or free with a Hakone Freepass (¥6,100 from Shinjuku, ¥5,000 from Odawara).",
+                "intro": "Picture yourself gliding above Hakone on the Ropeway, Mount Fuji looming majestically—if the weather cooperates—and Lake Ashi shimmering below. This aerial cable car stretches from Sounzan to Togendai, with a stop at Owakudani’s steaming volcanic valley, famous for its quirky black eggs. It’s a Hakone classic, just 1.5 km from Ryuguden (a 20-25 minute walk or 5-10 minute bus/taxi to Togendai). Running 9:00 AM to 5:00 PM with cars every 1-2 minutes, it’s ¥1,600 one-way or ¥2,900 round-trip (2023 rates, might tick up by 2025), or free with a Hakone Freepass (¥6,100 from Shinjuku, ¥5,000 from Odawara). Tempted to fit it into your morning before the 1:00 PM shuttle? Let’s see if it works.",
                 "fit": {
-                    "title": "Can You Squeeze It In?",
-                    "intro": "You’ve got from 10:00 AM check-out to the 1:00 PM shuttle—about 2.5-3 hours if you’re back by 12:30 PM. Here’s how it could work:",
+                    "title": "Can You Make It Work?",
+                    "intro": "You’ve got a tight window—10:00 AM check-out to the 1:00 PM shuttle, ideally back by 12:30 PM for a breather. That’s 2.5-3 hours tops. Here’s how it could play out:",
                     "details": [
                         {
                             "label": "Getting to Togendai",
                             "options": [
-                                "<strong>Walk:</strong> 1.5 km (~20-25 minutes)—doable sans luggage, but eats time.",
-                                "<strong>Bus:</strong> Hakone Tozan from “Motohakone” (700m walk) to Togendai (5-10 minutes, ¥360/person, every 15-30 minutes).",
-                                "<strong>Taxi:</strong> ¥1,000-¥1,500 (5 minutes)—the quick win."
+                                "<strong>Walk:</strong> 1.5 km takes 20-25 minutes. Fine without luggage, but it cuts into your time.",
+                                "<strong>Bus:</strong> Hop on the Hakone Tozan from “Motohakone” (700m walk from Ryuguden) to Togendai—5-10 minutes, ¥360/person, every 15-30 minutes.",
+                                "<strong>Taxi:</strong> ¥1,000-¥1,500 gets you there in 5 minutes, the fastest bet."
                             ]
                         },
                         {
-                            "label": "Ropeway Rundown",
-                            "steps": [
-                                "Togendai to Owakudani: 15-20 minutes one-way.",
-                                "Owakudani stop: 20-30 minutes for steam vents and black eggs (¥500/5).",
-                                "Back to Togendai: 15-20 minutes.",
-                                "<strong>Total:</strong> ~50-70 minutes round-trip."
-                            ]
+                            "label": "Ropeway Ride",
+                            "description": "From Togendai to Owakudani, it’s a 15-20 minute ride one-way. Stop for 20-30 minutes to see the volcanic steam vents and grab black eggs (¥500 for 5)—a quick, fun detour. Then 15-20 minutes back to Togendai. Total round-trip: 50-70 minutes."
                         },
-                        "<strong>Return:</strong> 5-25 minutes (taxi vs. walk).",
+                        {
+                            "label": "Getting Back",
+                            "description": "Taxi back takes 5 minutes (¥1,500), walking’s 20-25 minutes. Taxis keep it tight and stress-free."
+                        },
                         {
                             "label": "Sample Timeline",
                             "plan": [
-                                "10:00 AM: Check out, store bags.",
+                                "10:00 AM: Check out, ditch bags at Ryuguden.",
                                 "10:00-10:10 AM: Taxi to Togendai (¥1,500).",
-                                "10:15-10:35 AM: Ropeway up to Owakudani.",
-                                "10:35-11:00 AM: Quick explore—photos, eggs if lines are short.",
-                                "11:00-11:20 AM: Ropeway back.",
+                                "10:15-10:35 AM: Ropeway to Owakudani.",
+                                "10:35-11:00 AM: Explore—snap pics, try an egg if lines are short.",
+                                "11:00-11:20 AM: Ropeway back to Togendai.",
                                 "11:25-11:35 AM: Taxi to Ryuguden (¥1,500).",
-                                "11:35 AM-12:30 PM: Relax with buffer.",
-                                "1:00 PM: Shuttle off.",
-                                "<strong>Total:</strong> ~1.5-2 hours with taxis, 2.5-3 with bus/walk."
+                                "11:35 AM-12:30 PM: Chill with a buffer.",
+                                "1:00 PM: Shuttle departs.",
+                                "<strong>Total:</strong> ~1.5-2 hours with taxis, 2.5-3 hours if you bus or walk."
                             ]
                         }
                     ]
                 },
                 "must_see": {
-                    "title": "Is It a Morning Must?",
-                    "pros": "The views are epic—Fuji and Ashi from above, especially with Sakura flair. Owakudani’s volcanic weirdness (steam, eggs) is a unique thrill, and it’s close enough to tempt. A bucket-list ride for Hakone fans!",
-                    "cons": "It’s tight—delays (queues of 5-15 minutes, crowded cabins) could stress your shuttle timing. Sakura season means crowds, and costs add up: ¥17,400 round-trip for six (or ¥9,600 one-way), plus ~¥3,000 taxis (~¥12,600-¥20,400 total). Foggy April days might hide Fuji, too.",
-                    "compared": "Compare that to Hakone Shrine (15-20 min walk, free, serene), Onshi Park (10-15 min, free, scenic), or Narukawa Museum (5 min, ¥1,300/person, chill)—all easier fits."
+                    "title": "Worth the Rush?",
+                    "pros": "The payoff’s huge if it’s clear—Mount Fuji and Lake Ashi from above, kissed by Sakura season vibes. Owakudani’s steamy, egg-boiling oddity is a quirky thrill your group won’t forget. Plus, it’s close—way more doable than the Open-Air Museum farther west.",
+                    "cons": "It’s a gamble. Sakura crowds mean 5-15 minute queues and packed cabins (8-10 people). Timing’s razor-thin—any delay risks your shuttle. Costs stack up too: ¥17,400 round-trip for six (or ¥9,600 one-way), plus ¥3,000 for taxis, so ¥12,600-¥20,400 total. And if April fog rolls in, Fuji’s a no-show."
                 },
                 "sense": {
-                    "title": "Does It Make Sense?",
-                    "yes": "Go for it if aerial views and volcanic vibes trump quieter spots, you’re okay with a fast pace, and taxis fit your budget (~¥3,000 round-trip).",
-                    "no": "Skip it if you crave calm, want to dodge crowds or costs, or prefer shrine/park charm—missing the shuttle for this isn’t worth the hustle."
+                    "title": "Does It Fit Your Vibe?",
+                    "yes": "Say yes if you’re hooked on aerial thrills and volcanic quirks, cool with a brisk pace, and can swing the taxi cash (~¥3,000 round-trip). It’s a Hakone bucket-list star!",
+                    "no": "Pass if you’d rather unwind, avoid crowds or extra yen, or lean toward the chill shrine-and-park scene. Risking the shuttle for a rushed ride might not spark joy."
                 },
-                "recommendation": "The Ropeway’s a Hakone star, but your morning’s too short to shine. Opt for Hakone Shrine and Narukawa instead—2 hours total (10:00-11:00 AM shrine, 11:10-12:00 PM museum), ¥7,800 for six, and right by Ryuguden. If you’re dead-set on the Ropeway, taxi it (10:00 AM out, 11:35 AM back), budget ¥12,600-¥20,400, and skip lingering—though it’s pricier and riskier."
+                "compared": {
+                    "title": "How It Stacks Up",
+                    "intro": "Here’s the Ropeway versus nearby alternatives:",
+                    "options": [
+                        "<strong>Hakone Shrine:</strong> 15-20 minute walk, free, 1-1.5 hours—serene and cultural.",
+                        "<strong>Onshi Park:</strong> 10-15 minute walk, free, 1 hour—scenic and easy.",
+                        "<strong>Narukawa Museum:</strong> 5-minute walk, ¥1,300/person, 1 hour—artsy and low-key."
+                    ]
+                },
+                "recommendation": "The Ropeway’s a Hakone gem, but your morning’s too precious for the squeeze. Go for Hakone Shrine and Narukawa instead—2 hours total (10:00-11:00 AM shrine, 11:10-12:00 PM museum), just ¥7,800 for six, and steps from Ryuguden. Obsessed with the Ropeway? Taxi it (10:00 AM out, 11:35 AM back), budget ¥12,600-¥20,400, and keep it snappy—no dawdling at Owakudani. It’s a pricier, tighter call, so weigh your thrill factor!"
             }
         }
     }
