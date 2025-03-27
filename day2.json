@@ -2,8 +2,8 @@
     "overview": "Start slow at 10:00 AM, end 9:30 PM (~11.5 hours), ~4-5 km walking, ~¥30,000 total (transport, teamLab, food). Focus: History (Meiji Shrine, Edo Castle), Culture (teamLab), Food (Himawari Sushi, Sushi Tokyo Ten), Soul (Shinjuku Gyoen, Roppongi Hills).",
     "10am": {
         "base": "Wake up slow—jet lag kicks in. Grab onigiri from 7-Eleven (300m walk)—rice balls and tea fuel you up. See Koreatown’s bustle outside: BBQ smoke, K-pop posters.\nWhy It’s a Must-See: This is your soft landing into Tokyo—jet lag’s real, and starting with a chill morning in a vibrant neighborhood sets the tone. Koreatown’s energy wakes you up without overwhelming.",
-        "short_story": "Grandma yawns, “I feel like a zombie,” but the teens bolt for onigiri, arguing over salmon vs. tuna. Outside, a K-pop beat thumps—suddenly, everyone’s awake.",
-        "long_story": "The clock hits 10, and your body’s still on yesterday’s time zone—legs heavy, eyes gritty. But the Airbnb’s cozy, and a 7-Eleven’s just steps away. The teens lead the charge, snagging onigiri—salmon for one, tuna for the other, while adults sip tea, watching steam curl up. Outside, Ōkubo’s Koreatown hums: BBQ smoke wafts from grills, K-pop posters plaster walls, and a shop blasts BTS. It’s a gentle jolt—Tokyo’s alive, and you’re in it now.",
+        "short_story": "The group shuffles, still groggy, but the teens bolt for onigiri, debating salmon vs. tuna. Outside, a K-pop beat thumps—suddenly, everyone’s awake.",
+        "long_story": "The clock hits 10, and your body’s still on yesterday’s time zone—legs heavy, eyes gritty. But the Airbnb’s cozy, and a 7-Eleven’s just steps away. Onigiri options—salmon or tuna—hit the spot, paired with steaming tea. Outside, Ōkubo’s Koreatown hums: BBQ smoke wafts from grills, K-pop posters plaster walls, and a shop blasts BTS. It’s a gentle jolt—Tokyo’s alive, and you’re in it now.",
         "facts": "Ōkubo is Tokyo’s Koreatown, home to over 30,000 Korean residents—more Korean BBQ spots per block than anywhere else in Japan.\nOnigiri’s been a grab-and-go snack since the 11th century, once samurai fuel.",
         "walk": "Walk (300m, ~5 min): Stroll to 7-Eleven from Airbnb.",
         "places": [
@@ -12,9 +12,9 @@
         ]
     },
     "1015am": {
-        "base": "Stroll to this 144-acre oasis—cherry blossoms explode in April. See pink petals over ponds, a tea house, and French gardens. Teens snap pics, all breathe Tokyo’s calm.\nWhy It’s a Must-See: Cherry blossoms at peak bloom are Japan’s soul in spring—Shinjuku Gyoen blends nature and history, a rare quiet spot in Tokyo’s chaos.",
-        "short_story": "The 15-year-old gasps, “It’s like a pink snowstorm!” Petals drift onto Grandpa’s hat—he grins, first time all morning.",
-        "long_story": "You step into Shinjuku Gyoen, and the city’s roar fades—144 acres of green swallow you whole. April’s cherry blossoms are in full riot, pink clouds over ponds and paths. The teens whip out phones, chasing the perfect shot, while adults linger by the tea house, its wooden frame whispering of emperors past. French gardens surprise you—trimmed hedges amid Japanese serenity. A petal lands on your shoulder; it’s fleeting, like this moment. Breathe it in—Tokyo’s calm before the storm.",
+        "base": "Stroll to this 144-acre oasis—cherry blossoms explode in April. See pink petals over ponds, a tea house, and French gardens. Cameras click, calm settles in.\nWhy It’s a Must-See: Cherry blossoms at peak bloom are Japan’s soul in spring—Shinjuku Gyoen blends nature and history, a rare quiet spot in Tokyo’s chaos.",
+        "short_story": "The 15-year-old gasps, “It’s like a pink snowstorm!” Petals drift down—photo ops abound.",
+        "long_story": "You step into Shinjuku Gyoen, and the city’s roar fades—144 acres of green swallow you whole. April’s cherry blossoms are in full riot, pink clouds over ponds and paths. Phones come out for shots of the tea house, its wooden frame whispering of emperors past. French gardens surprise with trimmed hedges amid Japanese serenity. A petal lands nearby; it’s fleeting, like this moment. Breathe it in—Tokyo’s calm before the storm.",
         "facts": "Shinjuku Gyoen has over 1,000 cherry trees, some blooming later than others—April 1 might catch rare late varieties.\nIt was the Imperial family’s private garden until 1949, opened post-WWII.",
         "walk": "Walk (1 km, ~15 min): Head southeast from Ōkubo Airbnb to Shinjuku Gyoen’s Okido Gate.",
         "places": [
@@ -25,9 +25,9 @@
         "substop_teahouse": "Peek at the Kyu-Gakuen tea house—built for royalty, it’s a wooden gem. Imagine sipping matcha as petals fall."
     },
     "1115am": {
-        "base": "Walk back through Ōkubo—spot Korean shops. At this conveyor belt spot, watch sushi roll by: tuna and veggie rolls for grandparents, eel for others. See the chef’s quick hands.\nWhy It’s a Must-See: Conveyor belt sushi is peak Japan—fun, fresh, and fast. It’s a taste of Tokyo’s everyday magic, perfect for all ages.",
-        "short_story": "The 13-year-old bets they can grab more plates than anyone—eel zooms by, and Grandma snags tuna, laughing, “Not so fast!”",
-        "long_story": "The walk back through Ōkubo buzzes—Korean BBQ joints and trinket shops line the way, a mini Seoul in Tokyo. At Himawari Sushi, you slide into seats as plates glide past: ruby tuna for the grandparents, slippery eel for the rest. The chef’s a blur, slicing fish like a samurai. The teens stack plates, turning it into a game—13-year-old vs. 15-year-old—while adults marvel at the freshness. It’s loud, it’s lively, and it’s your first real bite of Japan.",
+        "base": "Walk back through Ōkubo—spot Korean shops. At this conveyor belt spot, watch sushi roll by: tuna, veggie rolls, and eel glide past. See the chef’s quick hands.\nWhy It’s a Must-See: Conveyor belt sushi is peak Japan—fun, fresh, and fast. It’s a taste of Tokyo’s everyday magic, perfect for all ages.",
+        "short_story": "The 13-year-old bets they can grab the most plates—eel zooms by, sparking a challenge.",
+        "long_story": "The walk back through Ōkubo buzzes—Korean BBQ joints and trinket shops line the way, a mini Seoul in Tokyo. At Himawari Sushi, seats face the conveyor belt: tuna, veggie rolls, and eel roll past in a colorful stream. The chef’s a blur, slicing fish like a samurai. Plates stack up as the belt hums—it’s loud, lively, and your first real bite of Japan.",
         "facts": "Conveyor belt sushi (kaitenzushi) started in 1958—plates were once pulled by hand-cranked belts!\nTokyo eats 2,000 tons of tuna yearly; Himawari’s share is small but pristine.",
         "walk": "Walk (1.5 km, ~20 min): Exit Shinjuku Gyoen’s Sendagaya Gate, head northwest through Ōkubo to Himawari Sushi.",
         "places": [
@@ -40,22 +40,22 @@
     },
     "1215pm": {
         "base": "Head south—pass Harajuku’s edge. Enter via giant torii gates—see a forest of 100,000 trees hiding the city. Spot sake barrel stacks, a Shinto prayer wall.\nWhy It’s a Must-See: This Shinto shrine honors Emperor Meiji, who modernized Japan—it’s a spiritual escape where nature and tradition collide.",
-        "short_story": "The teens gawk at the torii gate, “It’s huge!” Grandpa whispers a wish at the prayer wall—sake barrels gleam nearby.",
-        "long_story": "You trek south, brushing Harajuku’s funky fringe, then hit the torii gates—wooden giants marking sacred ground. Inside, 100,000 trees blot out Tokyo’s skyline; it’s like stepping back centuries. Sake barrels line the path, gifts from brewers to the gods. At the prayer wall, you spot wooden plaques—wishes in every language. The teens snap pics, but the air’s heavy with quiet awe. Emperor Meiji’s spirit lingers here, a bridge between old Japan and new.",
+        "short_story": "The group pauses at the torii gate—“It’s huge!” A wish is whispered at the prayer wall; sake barrels gleam nearby.",
+        "long_story": "You trek south, brushing Harajuku’s funky fringe, then hit the torii gates—wooden giants marking sacred ground. Inside, 100,000 trees blot out Tokyo’s skyline; it’s like stepping back centuries. Sake barrels line the path, gifts from brewers to the gods. At the prayer wall, wooden plaques carry wishes in every language. The air’s heavy with quiet awe—Emperor Meiji’s spirit lingers, a bridge between old Japan and new.",
         "facts": "The 100,000 trees were donated nationwide in 1920—volunteers planted them by hand.\nSake barrels (kazaridaru) are swapped yearly; brewers pray for good harvests.",
         "walk": "Walk (1.5 km, ~20 min): Head south from Himawari Sushi to Meiji Shrine’s main entrance.",
         "places": [
             "5 min in - Ōkubo Fade: Look left—Korean shops thin; Japanese signs take over. More Info (#)\nDetails: Koreatown’s grip loosens—Korean BBQ fades to Japanese izakayas or 7-Elevens. Signs shift from Hangul to kanji; a small sake shop might pop up, selling ¥500 bottles. This stretch quieted after the 2000s boom.",
-            "10 min in - Harajuku Edge: Look right—Takeshita Street’s chaos peeks; a punk struts by. More Info (#)\nDetails: Takeshita Street’s fringe—200m of teen insanity starts here. The punk’s in 10-inch platforms, a Harajuku staple since the ‘70s. Crepe stands waft sugar; it’s a riot of color and noise.",
+            "10 min in - Harajuku Edge: Look right—Takeshita Street’s chaos peeks; a punk struts by. More Info (#)\nDetails: Takeshita Street’s fringe—200m of teen insanity starts here. The punk’s in 10-inch platforms, a Harajuku staple since the ‘70s. Crepe stands waft sugar; it’s a riot of color and noise—teens won’t want to miss this vibe.",
             "18 min in - Torii Approach: Look left—trees loom; the gate’s shadow falls. More Info (#)\nDetails: Meiji’s main torii—12m tall, cedar, built 1920, replaced once. The 100,000-tree forest starts here; a Shinto priest might sweep the path. It’s a stark shift to sacred calm."
         ],
         "substop_harajuku": "Glimpse Takeshita Street—candy-colored shops, crepe stands."
     },
     "1pm": {
-        "base": "Train east—see Shinjuku’s towers fade. At the gardens, walk old moat paths, touch massive stone walls from 1457—shogun ghosts linger. Teens climb ruins.\nWhy It’s a Must-See: Once the shogun’s fortress, these gardens are a history lesson in stone—Tokyo’s roots laid bare, free to explore.",
-        "short_story": "The 13-year-old scales a wall, yelling, “I’m a ninja!” Grandma touches the stones, murmuring, “So old…”",
-        "long_story": "The train hums east, Shinjuku’s glass spires shrinking behind you. At Edo Castle’s East Gardens, you step onto paths where samurai once strode. The moat’s still, reflecting 1457’s massive walls—stones hauled by thousands under shogun rule. Teens scramble up ruins, playing warrior, while adults trace history in the cracks. No castle stands now, just echoes—power, war, and time. Cherry blossoms dot the grounds, softening the past’s weight. It’s raw, real, and free.",
-        "facts": "Edo Castle was the world’s largest fortress in the 1600s—its moat stretched 16 km.\nThe stones teens climb weighed up to 30 tons each—moved without machines!",
+        "base": "Train east—see Shinjuku’s towers fade. At the gardens, walk old moat paths, touch massive stone walls from 1457—shogun ghosts linger. Ruins invite climbing.\nWhy It’s a Must-See: Once the shogun’s fortress, these gardens are a history lesson in stone—Tokyo’s roots laid bare, free to explore.",
+        "short_story": "The 13-year-old scales a wall, yelling, “I’m a ninja!” The stones feel ancient underfoot.",
+        "long_story": "The train hums east, Shinjuku’s glass spires shrinking behind you. At Edo Castle’s East Gardens, paths wind where samurai once strode. The moat’s still, reflecting 1457’s massive walls—stones hauled by thousands under shogun rule. Ruins beckon climbers; history seeps from the cracks. No castle stands now, just echoes—power, war, and time. Cherry blossoms dot the grounds, softening the past’s weight. It’s raw, real, and free.",
+        "facts": "Edo Castle was the world’s largest fortress in the 1600s—its moat stretched 16 km.\nThe stones weigh up to 30 tons each—moved without machines!",
         "train": "Train (20 min, ¥1,200 total): JR Yamanote from Shinjuku to Tokyo Station.",
         "train_places": [
             "5 min in - Shinjuku View: Look right—towers gleam; a giant ad flashes. More Info (#)\nDetails: Shinjuku’s skyline—Mode Gakuen Cocoon Tower, 204m, built 2008, curves into view. The ad’s likely anime or beer, running 24/7 on a massive screen. It’s peak urban Tokyo fading behind.",
@@ -69,12 +69,12 @@
     },
     "230pm": {
         "base": "Ride south—watch Tokyo shift. Hit the 52nd-floor observatory—see Shibuya’s sprawl, Skytree’s spike, maybe Fuji. Stroll the Mori Garden below: cherry blossoms, koi, a giant spider statue. Cafe break: coffee and pastries.\nWhy It’s a Must-See: The view’s a jaw-dropper—Tokyo’s endless pulse from 52 floors up. The garden’s quirky calm contrasts the urban rush.",
-        "short_story": "The 15-year-old points, “There’s Skytree!” Below, Grandpa snaps a pic of the spider statue, chuckling, “Creepy art!”",
-        "long_story": "The train zips south, Tokyo morphing from Shinjuku’s chaos to Roppongi’s sleek vibe. At Mori Tower’s 52nd floor, glass walls frame a mind-bending view: Shibuya’s neon veins, Skytree’s distant spear, maybe Fuji’s snowcap if clouds play nice. Teens press noses to windows; adults sip coffee, stunned. Downstairs, Mori Garden waits—cherry blossoms sway, koi glide, and a massive spider sculpture looms, art gone wild. It’s Tokyo in layers: sky-high dreams, grounded quirks.",
+        "short_story": "Someone points, “There’s Skytree!” Below, the spider statue looms—photo-worthy and weird.",
+        "long_story": "The train zips south, Tokyo morphing from Shinjuku’s chaos to Roppongi’s sleek vibe. At Mori Tower’s 52nd floor, glass walls frame a mind-bending view: Shibuya’s neon veins, Skytree’s distant spear, maybe Fuji’s snowcap if clouds play nice. Downstairs, Mori Garden waits—cherry blossoms sway, koi glide, and a massive spider sculpture stands out, art gone wild. Coffee and pastries fuel a break. It’s Tokyo in layers: sky-high dreams, grounded quirks.",
         "facts": "Mori Tower’s 52nd floor is 238m up—on clear days, Fuji’s 100 km away but visible.\nThe spider statue, “Maman,” is one of seven worldwide by Louise Bourgeois.",
         "train": "Train (25 min, ¥1,800 total): JR Yamanote to Shibuya, Hibiya Line to Roppongi.",
         "train_places": [
-            "10 min in - Shibuya Scramble: Look right—crowds swarm; a TikTok kid dances. More Info (#)\nDetails: Shibuya Crossing—3,000 cross per light, world’s busiest. Last week, a TikTok dancer went viral dodging taxis here. It’s a neon-charged chaos pit.",
+            "10 min in - Shibuya Scramble: Look right—crowds swarm; a TikTok kid dances. More Info (#)\nDetails: Shibuya Crossing—3,000 cross per light, world’s busiest. Last week, a TikTok dancer went viral dodging taxis here. It’s a neon-charged chaos pit—teens won’t want to miss this iconic spot.",
             "20 min in - Roppongi Approach: Look left—towers gleam; nightlife hints. More Info (#)\nDetails: Roppongi’s skyline—Roppongi Hills (2003) and Midtown (2007) shine. Clubs like V2 Tokyo prep for night; the area’s been party central since the ‘80s."
         ],
         "walk": "Walk (500m, ~10 min): From Roppongi Station to Mori Tower.",
@@ -85,9 +85,9 @@
         "substop_spider": "“Maman,” a 30-ft bronze spider by Louise Bourgeois, guards the garden."
     },
     "5pm": {
-        "base": "Walk to Azabudai Hills—pass sleek towers. Inside, dive into light tunnels, mirror rooms, and digital waterfalls—teens chase glowing art, all lose track of time.\nWhy It’s a Must-See: This is art you live in—digital wonderlands that blur reality. It’s a teen magnet and a mind-bender for all.",
-        "short_story": "The 13-year-old runs into a mirror maze, “Where’s the exit?!” Grandma’s lost in a glowing waterfall, smiling like a kid.",
-        "long_story": "The walk to Azabudai Hills feels futuristic—glass towers gleam, Tokyo’s wealth on display. Then, teamLab Borderless hits: a universe of light. You step into tunnels where colors pulse, mirrors multiply you infinitely, and digital waterfalls crash without water. Teens dart after glowing orbs, laughing, while adults stand mesmerized—art’s alive here, wrapping you in its chaos. Time slips away; it’s a dream you don’t want to wake from. Japan’s cutting edge, unboxed.",
+        "base": "Walk to Azabudai Hills—pass sleek towers. Inside, dive into light tunnels, mirror rooms, and digital waterfalls—glowing art shifts and flows. Time slips away.\nWhy It’s a Must-See: This is art you live in—digital wonderlands that blur reality. It’s a mind-bender for all, with endless photo ops.",
+        "short_story": "The 13-year-old runs into a mirror maze, “Where’s the exit?!” A glowing waterfall dazzles nearby.",
+        "long_story": "The walk to Azabudai Hills feels futuristic—glass towers gleam, Tokyo’s wealth on display. Then, teamLab Borderless hits: a universe of light. Tunnels pulse with color, mirrors multiply everything infinitely, and digital waterfalls crash without water. Glowing orbs drift; it’s art alive, wrapping you in chaos. Time slips away—a dream you don’t want to wake from. Japan’s cutting edge, unboxed.",
         "facts": "teamLab Borderless uses 520 computers and 470 projectors—tech art on steroids.\nIt moved to Azabudai Hills in 2024; the old Odaiba site closed after 5 years.",
         "walk": "Walk (1 km, ~15 min): Head west from Mori Tower to teamLab Borderless in Azabudai Hills.",
         "places": [
@@ -96,20 +96,20 @@
         ]
     },
     "730pm": {
-        "base": "Stroll nearby—smell fresh fish. Sit for sushi: pristine tuna for grandparents, meat-topped rolls for others. See chefs slice with precision—a Tokyo finale.\nWhy It’s a Must-See: This is sushi elevated—fresh, artful, and personal. A perfect cap to a Tokyo day, blending tradition and flair.",
-        "short_story": "The 15-year-old whispers, “That tuna’s glowing!” Grandpa nods at the chef, who bows back—respect in every slice.",
-        "long_story": "A short stroll from teamLab, and fishy aromas pull you into Sushi Tokyo Ten. It’s intimate—chefs behind the counter wield knives like painters. Pristine tuna lands for the grandparents, ruby-red and melting; meat-topped rolls hit the teens’ plates, a fusion twist. You watch the precision: each cut deliberate, each piece a tiny masterpiece. The day’s chaos fades—this is Tokyo distilled, a quiet triumph of flavor and craft. Savor it; it’s the end, for now.",
+        "base": "Stroll nearby—smell fresh fish. Sit for sushi: pristine tuna and meat-topped rolls hit the table. Chefs slice with precision—a Tokyo finale.\nWhy It’s a Must-See: This is sushi elevated—fresh, artful, and personal. A perfect cap to a Tokyo day, blending tradition and flair.",
+        "short_story": "Someone whispers, “That tuna’s glowing!” A chef bows back—respect in every slice.",
+        "long_story": "A short stroll from teamLab, and fishy aromas pull you into Sushi Tokyo Ten. It’s intimate—chefs behind the counter wield knives like painters. Tuna shines ruby-red; meat-topped rolls bring a fusion twist. Each cut’s deliberate, each piece a tiny masterpiece. The day’s chaos fades—this is Tokyo distilled, a quiet triumph of flavor and craft. Savor it; it’s the end, for now.",
         "facts": "Tokyo’s sushi chefs train 5–10 years—some start by just washing rice.\nTuna’s the king here; top cuts at auctions hit ¥200,000 per fish.",
         "walk": "Walk (300m, ~5 min): Stroll from teamLab Borderless to Sushi Tokyo Ten.",
         "places": [
-            "2 min in - Azabudai Exit: Look right—spot Azabudai Hills complex; fishy aromas hint at dinner. More Info (#)\nDetails: You’re leaving teamLab in Azabudai Hills, opened 2023 with glass towers and upscale shops. The Mori JP Tower’s sleek curve stands out, part of a ¥580 billion redevelopment. The fish scent drifts from sushi joints or a hidden stall—locals say it’s strongest near the west plaza, where a chef once tossed scraps to a stray cat dubbed “Sushi-san.”",
+            "2 min in - Azabudai Exit: Look right—spot Azabudai Hills complex; fishy aromas hint at dinner. More Info (#)\nDetails: You’re leaving teamLab in Azabudai Hills, opened 2023 with glass towers and upscale shops. The Mori JP Tower’s sleek curve stands out, part of a ¥580 billion redevelopment. The fish scent drifts from sushi joints or a hidden stall—locals say it peaks near the west plaza, where a chef once tossed scraps to a stray cat dubbed “Sushi-san.”",
             "4 min in - Sushi Approach: Look left—a stray cat prowls; chef’s pal. More Info (#)\nDetails: Near Sushi Tokyo Ten, a narrow alley hides this 10-seat gem. The cat’s “Sushi-san,” fed by chefs for years; it’s a local mascot now. The fish smell peaks as you close in."
         ]
     },
     "9pm": {
         "base": "Train back—watch nightlife glow. Walk 300m home—crash by 9:30 PM.\nWhy It’s a Must-See: The ride home shows Tokyo’s night pulse—lights, crowds, energy. A fitting close to a packed day.",
-        "short_story": "The 13-year-old presses against the train window, “So many lights!” Adults slump, happy-tired—bed’s calling.",
-        "long_story": "The Hibiya Line hums, then the Yamanote clicks in—Tokyo’s nightlife flares outside: neon signs, salarymen stumbling from izakayas, teens in wild fashion. The train’s a time capsule, carrying you from Roppongi’s gloss back to Ōkubo’s grit. The 300m walk home is quiet, Koreatown winding down. You crash by 9:30, legs aching, minds buzzing—day two’s done, and Tokyo’s already under your skin.",
+        "short_story": "The train window reveals “So many lights!” Legs ache, bed calls.",
+        "long_story": "The Hibiya Line hums, then the Yamanote clicks in—Tokyo’s nightlife flares outside: neon signs, salarymen stumbling from izakayas, wild fashion flashing by. The train’s a time capsule, carrying you from Roppongi’s gloss back to Ōkubo’s grit. The 300m walk home is quiet, Koreatown winding down. Crash by 9:30—day two’s done, and Tokyo’s under your skin.",
         "facts": "Yamanote Line runs 35 km, looping Tokyo—29 stops, all day, every day.\nTokyo’s nightlife burns ¥1 trillion yearly; you’ll see why out the window.",
         "train": "Train (30 min, ¥1,800 total): Hibiya Line to Hibiya, JR Yamanote to Shin-Ōkubo.",
         "train_places": [
