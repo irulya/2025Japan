@@ -63,21 +63,7 @@ for time, sections in {k: v for k, v in data.items() if k != "overview"}.items()
     main_content += f'<li><strong class="top-level">{header}:</strong>\n<ul>'
     main_content += f'<li><strong class="second-level">Base:</strong> {sections["base"].replace("\n", "<br>")}<br>'
     main_content += f'[<a href="{time}_short_story.html">Short Story</a>] [<a href="{time}_long_story.html">Long Story</a>] '
-    main_content += f'[<a href="{time}_facts.html">Facts</a>]'
-    
-    # Add Travel Section (Walk or Train)
-    if "walk" in sections:
-        main_content += f'<br><strong class="second-level">Travel:</strong> {sections["walk"]}<br>'
-        if "places" in sections:
-            main_content += '<ul>' + "".join(f'<li>{place.replace("\n", "<br>")}</li>' for place in sections["places"]) + '</ul>'
-    elif "train" in sections:
-        main_content += f'<br><strong class="second-level">Travel:</strong> {sections["train"]}<br>'
-        if "train_places" in sections:
-            main_content += '<ul>' + "".join(f'<li>{place.replace("\n", "<br>")}</li>' for place in sections["train_places"]) + '</ul>'
-        if "walk" in sections:  # For stops with both train and walk (e.g., 1pm, 230pm, 9pm)
-            main_content += f'<br>{sections["walk"]}<br>'
-            if "places" in sections:
-                main_content += '<ul>' + "".join(f'<li>{place.replace("\n", "<br>")}</li>' for place in sections["places"]) + '</ul>'
+    main_content += f'[<a href="{time}_facts.html">Facts</a>] [<a href="{time}_travel.html">Travel</a>]'
     
     # Add Google Maps link if not the first stop
     if prev_time:
@@ -131,15 +117,19 @@ for time, sections in {k: v for k, v in data.items() if k != "overview"}.items()
                 content_html += '<ul>' + "".join(f'<li>{place.replace("\n", "<br>")}</li>' for place in sections["train_places"]) + '</ul>'
             if section == "walk" and "places" in sections:
                 content_html += '<ul>' + "".join(f'<li>{place.replace("\n", "<br>")}</li>' for place in sections["places"]) + '</ul>'
-            filename = f'day2/{time}_{section}.html'
+            if "walk" in sections and section == "train":  # For stops with both (e.g., 1pm, 230pm, 9pm)
+                content_html += f'<p>{sections["walk"]}</p>'
+                if "places" in sections:
+                    content_html += '<ul>' + "".join(f'<li>{place.replace("\n", "<br>")}</li>' for place in sections["places"]) + '</ul>'
+            filename = f'day2/{time}_travel.html'
             with open(filename, 'w', encoding='utf-8') as f:
                 f.write(template.format(
-                    title=f'{time_display} {section.capitalize()}',
-                    header=f'{section.capitalize()}: {header}',
+                    title=f'{time_display} Travel',
+                    header=f'Travel: {header}',
                     content=content_html
                 ))
         elif section == "places" or section == "train_places":
-            continue  # Handled in walk/train pages
+            continue  # Handled in travel page
         elif section.startswith("substop_"):
             substop_name = section.split("_")[1]
             filename = f'day2/{time}_{substop_name}.html'
