@@ -1,0 +1,120 @@
+{
+    "overview": "Start 9:30 AM, end 8:00 PM (~10.5 hours), ~5-6 km walking, ~¥30,000 total (transport, Skytree, food). Focus: History (Senso-ji), Culture (Akihabara, Takeshita), Food (Tsukiji Outer Market), Soul (Skytree, Shibuya Crossing, Hachiko).",
+    "930am": {
+        "base": "Quick start—grab convenience store breakfast (onigiri, coffee). See Ōkubo’s morning hum: commuters, shopkeepers.\nWhy It’s a Must-See: Jet lag’s fading—Ōkubo’s lively wake-up primes you for a full Tokyo day.",
+        "short_story": "The group stirs, debating onigiri flavors—salmon or ume? Outside, commuters hustle, shopkeepers sweep.",
+        "long_story": "It’s 9:30, and jet lag’s loosening its grip—energy’s up. A convenience store’s steps away—onigiri (salmon, ume) and coffee fuel the start. Ōkubo buzzes outside: commuters dart, shopkeepers prep grills, the air thick with morning life. It’s a quick launch—Tokyo’s calling, and you’re ready to roll.",
+        "facts": "Ōkubo’s Korean roots draw 30,000+ residents—morning’s when it shifts from night grit to day hum.\nJapan’s convenience stores sell 4 billion onigiri yearly—fast, cheap, and filling.",
+        "walk": "Walk (300m, ~5 min): Stroll to FamilyMart from Airbnb.",
+        "places": [
+            "1 min in - Airbnb Exit: Look left—shopkeepers sweep; BBQ grills warm up. More Info (#)\nDetails: Shin-Ōkubo Street’s morning ritual—shops like Seoul Mart open early. Grills fire up for galbi; a shopkeeper once waved off a late K-pop fan lingering from last night.",
+            "3 min in - FamilyMart Ahead: Look right—neon flickers; coffee scents drift. More Info (#)\nDetails: FamilyMart’s a Tokyo staple—24/7, 300+ items. Coffee’s ¥100 from a machine; onigiri’s stacked by the door. A commuter once spilled his here and laughed it off."
+        ]
+    },
+    "10am": {
+        "base": "Train east—pass Sumida River. At 11:00 AM, hit the 350m deck—see Tokyo’s endless rooftops, maybe Fuji. Glass walls frame the city’s scale.\nWhy It’s a Must-See: Skytree’s the world’s tallest tower—634m of vertigo and views, a soul-stirring peek at Tokyo’s sprawl.",
+        "short_story": "Someone gasps, “It’s endless!” The horizon stretches—Fuji’s a faint tease.",
+        "long_story": "The train cuts east, Sumida River glinting below. You arrive by 11:00 AM at Skytree—its 350m deck is a glass-walled perch over Tokyo’s chaos: rooftops roll out, Skytree’s shadow stabs the city, and Fuji might peek if clouds part. It’s 634m of steel and awe, opened 2012—a modern marvel dwarfing the past. The scale sinks in; this is Tokyo unbound.",
+        "facts": "Skytree’s 634m—twice the Eiffel Tower’s height, built quake-proof in 2012.\nThe 350m deck sees 3 million visitors yearly; Fuji’s visible 20% of the time.",
+        "train": "Train (35 min, ¥2,400 total): JR Sobu from Shin-Ōkubo to Asakusa, Tobu to Oshiage.",
+        "train_places": [
+            "10 min in - Sumida River: Look left—water glints; bridges arch. More Info (#)\nDetails: Sumida River’s Tokyo’s eastern artery—12 bridges span it, like Azuma-bashi’s red arc. It’s been a trade route since the 1600s; a barge might float by with morning cargo.",
+            "30 min in - Oshiage Approach: Look right—Skytree looms; rooftops spread. More Info (#)\nDetails: Oshiage Station nears—Skytree’s base dominates, 634m piercing the sky. The area’s old Edo charm meets modern steel; a vendor hawks Skytree keychains below."
+        ]
+    },
+    "12pm": {
+        "base": "Head south—see Asakusa’s old charm. Browse stalls: fresh sushi bites, tamagoyaki (egg rolls), fish skewers roll out.\nWhy It’s a Must-See: Tsukiji’s outer market is raw Tokyo—fish-fresh chaos, a foodie haven post-auction move.",
+        "short_story": "Someone snags a sushi bite—“So fresh!” Stalls hum with sizzling skewers.",
+        "long_story": "The ride south brushes Asakusa’s retro vibe, landing you at Tsukiji’s outer market. Stalls line tight alleys—sushi bites glisten, tamagoyaki sizzles, fish skewers smoke on grills. It’s the gritty half of Tsukiji’s legacy, thriving after the 2018 auction shift to Toyosu. Vendors shout, knives flash; it’s a chaotic feast, pure and unfiltered. Dig in—Tokyo’s sea is on your plate.",
+        "facts": "Tsukiji’s outer market has 500+ stalls—survived the 2018 auction move intact.\nJapan eats 1.5 million tons of seafood yearly; Tsukiji’s a tasty sliver.",
+        "train": "Train (25 min, ¥1,800 total): Tobu from Oshiage to Asakusa, Tsukuba Express to Tsukiji.",
+        "train_places": [
+            "10 min in - Asakusa Glimpse: Look right—Senso-ji’s pagoda peeks; old Tokyo hums. More Info (#)\nDetails: Asakusa Station’s edge—Senso-ji’s red pagoda juts above rooftops, a 645 AD relic. The area’s Edo-era charm lingers; a rickshaw might roll by with tourists.",
+            "20 min in - Tsukiji Approach: Look left—city tightens; fish scents tease. More Info (#)\nDetails: Tsukiji Station nears—narrow streets close in, a hint of the market’s sprawl. The fish smell drifts early; a vendor once tossed a tuna scrap to a passing crow."
+        ],
+        "walk": "Walk (500m, ~10 min): From Tsukiji Station to outer market.",
+        "places": [
+            "3 min in - Station Exit: Look right—shops stack; a sushi sign glows. More Info (#)\nDetails: Tsukiji’s station exit—small shops like Sushi Zanmai line up, open since the ‘80s. The glow’s a neon promise of what’s ahead; crowds start to thicken.",
+            "8 min in - Market Edge: Look left—stalls bloom; fish gleam on ice. More Info (#)\nDetails: Tsukiji’s outer rim—stalls spill out with tuna slabs and octopus. It’s been a fish hub since 1935; a knife sharpener might spark nearby, prepping for the rush."
+        ]
+    },
+    "130pm": {
+        "base": "Short ride—spot Sumida’s bridges. At Kaminarimon, see the 700-kg lantern, walk Nakamise’s 1600s stalls—fans, snacks. Pagoda photos snap.\nWhy It’s a Must-See: Senso-ji’s Tokyo’s oldest temple—1,400 years of soul, history in every stone.",
+        "short_story": "The group gawks—“That lantern’s massive!” Nakamise tempts with snacks.",
+        "long_story": "A quick ride drops you near Senso-ji—Kaminarimon’s red gate looms, its 700-kg lantern swaying. Nakamise Street stretches ahead, 1600s stalls hawking fans and senbei crackers. The five-story pagoda rises, incense smoke curls; it’s 645 AD reborn through war and fire. Cameras catch the chaos and calm—this is Tokyo’s ancient heartbeat.",
+        "facts": "Senso-ji’s from 645 AD—founded over a Kannon statue fished from Sumida.\nNakamise’s 89 shops have sold wares since the Edo era; 300m of history.",
+        "train": "Train (10 min, ¥1,200 total): Tsukuba Express from Tsukiji to Asakusa.",
+        "train_places": [
+            "5 min in - Sumida Bridges: Look left—bridges arc; river shimmers. More Info (#)\nDetails: Sumida River again—Azuma-bashi’s red curve stands out, built 1874, rebuilt post-war. It’s a postcard view; a boat might glide under with morning leftovers."
+        ],
+        "walk": "Walk (500m, ~10 min): From Asakusa Station to Senso-ji.",
+        "places": [
+            "3 min in - Station Exit: Look right—rickshaws roll; a temple sign glows. More Info (#)\nDetails: Asakusa Station’s bustle—rickshaw drivers hawk ¥2,000 rides, a nod to old Edo. The sign points to Senso-ji; a driver once raced a tourist for laughs.",
+            "8 min in - Kaminarimon: Look left—lantern looms; crowds thicken. More Info (#)\nDetails: Kaminarimon’s gate—700-kg lantern hung since 942, rebuilt post-1868. Thunder gods glare down; it’s the temple’s loud welcome amid Nakamise’s hum."
+        ]
+    },
+    "230pm": {
+        "base": "Stroll southwest—pass retro signs. Dive into anime shops, arcades, maid cafes—manga and neon define otaku life.\nWhy It’s a Must-See: Akihabara’s the geek mecca—anime, games, and tech in electric overload, a cultural must.",
+        "short_story": "The 13-year-old bolts for an arcade—“So many games!” Neon buzzes overhead.",
+        "long_story": "The walk southwest shifts from Asakusa’s old charm to Akihabara’s glow—retro signs give way to anime billboards. Shops like Animate stack manga, arcades blare, maid cafes beckon with frilly calls. It’s otaku central, born from post-war radio markets into a ¥150 billion hub. Teens won’t miss this—crammed with games and gear, it’s Tokyo’s wild nerd soul.",
+        "facts": "Akihabara’s “Electric Town” tag started in the 1950s—radio parts to anime empire.\nIt’s got 250+ anime shops; ¥150 billion in sales yearly.",
+        "walk": "Walk (2 km, ~25 min): Head southwest from Senso-ji to Akihabara Electric Town.",
+        "places": [
+            "5 min in - Asakusa Fade: Look right—old shops thin; a temple lingers. More Info (#)\nDetails: Asakusa’s edge—small shrines like Hikan Inari dot the fade-out. They’re Edo holdovers; a lantern might still glow from last night’s prayer.",
+            "15 min in - Retro Shift: Look left—old signs rust; neon hints ahead. More Info (#)\nDetails: Kanda River’s near—retro appliance signs from the ‘60s fade into Akihabara’s glow. A shop once sold vacuum tubes here; now it’s game ads creeping in.",
+            "22 min in - Akihabara Edge: Look right—anime billboards blaze; noise rises. More Info (#)\nDetails: Akihabara’s fringe—Radio Kaikan looms, a 10-story otaku icon since 1950s, rebuilt 2014. Billboards flash One Piece; arcade sounds spill out."
+        ]
+    },
+    "4pm": {
+        "base": "Train west—watch city shift. Hit this 400m kawaii chaos: crepe stands, purikura booths, lolita fashion hum with life.\nWhy It’s a Must-See: Takeshita’s Harajuku’s teen heart—400m of candy-colored madness, pure Tokyo youth culture.",
+        "short_story": "The 15-year-old dives for a crepe—“So sweet!” Purikura booths flash nearby.",
+        "long_story": "The train rolls west, Tokyo morphing into Harajuku’s vibe. Takeshita Street hits—400m of kawaii overload: crepe stands waft strawberry, purikura booths snap glittery pics, lolita fashion struts in frills. It’s a teen dream since the ‘70s, a chaotic bubble of shops and screams. Teens won’t miss this—it’s Tokyo’s loudest, brightest soul.",
+        "facts": "Takeshita’s been teen central since the ‘70s—400m, 100+ shops.\nPurikura (photo booths) started here in 1995; ¥500 for a sparkly snap.",
+        "train": "Train (15 min, ¥1,200 total): JR Chuo-Sobu from Akihabara to Yoyogi.",
+        "train_places": [
+            "10 min in - Yoyogi Approach: Look left—park trees sway; city thins. More Info (#)\nDetails: Yoyogi Station nears—park greenery peeks, a 134-acre oasis from 1964 Olympics days. The shift’s subtle; a temple roof might glint through."
+        ],
+        "walk": "Walk (1 km, ~15 min): From Yoyogi Station to Takeshita Street.",
+        "places": [
+            "5 min in - Harajuku Start: Look right—shops perk up; fashion hints. More Info (#)\nDetails: Harajuku Station’s near—small boutiques like Laforet edge in, a 1978 icon. A lolita in frills might pass; the kawaii wave builds.",
+            "12 min in - Takeshita Edge: Look left—crepe scents waft; crowds swell. More Info (#)\nDetails: Takeshita’s mouth—Marion Crepes or similar since 1976, ¥500 treats. The alley tightens; a punk once photobombed a tourist here."
+        ]
+    },
+    "5pm": {
+        "base": "Walk south—pass trendy shops. Cross with 3,000 others—see neon ads, chaos in sync.\nWhy It’s a Must-See: Shibuya Crossing’s Tokyo’s pulse—3,000 cross per light, a neon-lit rush of soul.",
+        "short_story": "The light flips—“Go!” Cameras roll as 3,000 surge.",
+        "long_story": "The walk south winds past trendy spots, landing you at Shibuya Crossing. It’s a flood—3,000 cross when the light turns, neon ads blaze overhead, chaos moves like clockwork. Born from post-war bustle, it’s now a global icon—raw, loud, and alive. Phones catch the madness; this is Tokyo’s beating heart.",
+        "facts": "Shibuya Crossing handles 3,000 per light—500,000 daily, world’s busiest.\nNeon ads here burn ¥1 billion yearly; it’s a billboard jungle.",
+        "walk": "Walk (2 km, ~25 min): Head south from Takeshita Street to Shibuya Crossing.",
+        "places": [
+            "5 min in - Harajuku Fade: Look left—shops thin; towers rise. More Info (#)\nDetails: Harajuku’s edge—boutiques fade into Meiji-dori’s sleeker vibe. Towers like Omotesando Hills (2006) peek; a street artist might sketch nearby.",
+            "15 min in - Shibuya Hint: Look right—neon flickers; crowds build. More Info (#)\nDetails: Shibuya’s close—Dogenzaka’s slope hints at the chaos. Neon signs for Tower Records glow; a busker once played here ‘til midnight.",
+            "22 min in - Crossing Edge: Look left—ads blaze; the scrum nears. More Info (#)\nDetails: Shibuya Station’s Hachiko exit—ads for Pepsi or Gundam tower over. The crossing’s a step away; a tourist once froze mid-step, awed."
+        ]
+    },
+    "545pm": {
+        "base": "Step aside—spot the tiny bronze dog. See Hachiko’s loyal wait carved in stone—crowds gather, a quiet moment amid the rush.\nWhy It’s a Must-See: Hachiko’s a Tokyo legend—loyalty in bronze, a soulful pause by the scramble.",
+        "short_story": "The group finds the dog—“So small!” Crowds snap pics around it.",
+        "long_story": "A short step from the crossing, Hachiko’s bronze figure waits—tiny amid the bustle. Unveiled 1935, it marks a dog’s decade-long vigil for his dead owner, a story etched in Japan’s heart. Crowds circle, cameras click; it’s a quiet counterpoint to Shibuya’s roar—loyalty cast in metal, still standing.",
+        "facts": "Hachiko waited daily from 1925-1935—died at this spot, now bronze.\nThe statue’s been here since 1948; remade post-war after metal drives.",
+        "walk": "Walk (100m, ~5 min): Stroll from Shibuya Crossing to Hachiko Statue.",
+        "places": [
+            "2 min in - Crossing Exit: Look right—Hachiko’s bronze glints; crowds circle. More Info (#)\nDetails: Hachiko Square’s edge—right off the crossing, the statue’s 1.6m tall, dwarfed by fans. A flower wreath might rest here; it’s a pilgrimage spot since ‘48."
+        ]
+    },
+    "615pm": {
+        "base": "Train north—see Shibuya fade. Walk home—end by 8:00 PM, grab dinner nearby if hungry (e.g., Himawari Sushi again).\nWhy It’s a Must-See: The ride home winds down a big day—nightlife glows, Ōkubo’s grit welcomes back.",
+        "short_story": "The train hums—“Shibuya’s wild!” Home’s close, rest awaits.",
+        "long_story": "The Yamanote clicks north, Shibuya’s neon fading into memory. Tokyo’s nightlife pulses outside—salarymen stumble, signs flash. At Shin-Ōkubo, a 300m walk brings quiet—Koreatown’s winding down. End by 8:00 PM; Himawari Sushi’s nearby if hunger strikes. Day three’s done—Tokyo’s soul lingers.",
+        "facts": "Yamanote’s 35 km loop runs 29 stops—every 2-4 minutes, all night.\nŌkubo’s night shift drops by 8 PM; BBQ scents fade fast.",
+        "train": "Train (15 min, ¥1,200 total): JR Yamanote from Shibuya to Shin-Ōkubo.",
+        "train_places": [
+            "5 min in - Shibuya Fade: Look right—neon thins; towers shrink. More Info (#)\nDetails: Shibuya Station’s bustle—ads dim as you pull out, 109 tower recedes. A drunk salaryman might wave; the chaos softens.",
+            "12 min in - Shin-Ōkubo Hint: Look left—Koreatown nears; lights flicker. More Info (#)\nDetails: Shin-Ōkubo Station looms—Koreatown’s glow returns, softer now. A grill might still smoke; home’s a blink away."
+        ],
+        "walk": "Walk (300m, ~5 min): From Shin-Ōkubo Station to Airbnb.",
+        "places": [
+            "2 min in - Station Exit: Look right—BBQ lingers; a stall winds down. More Info (#)\nDetails: Shin-Ōkubo’s exit—Yakiniku Stall #3 grills ¥200 skewers ‘til late. A lone customer might linger; the day’s last smoky whiff hits."
+        ]
+    }
+}
