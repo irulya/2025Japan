@@ -17,6 +17,7 @@ template = '''<!DOCTYPE html>
     <title>Day 4 - {title}</title>
     <style>
         li strong.top-level {{ font-size: 1.2em; }}
+        ul {{ margin-left: 20px; }}
     </style>
 </head>
 <body>
@@ -26,10 +27,53 @@ template = '''<!DOCTYPE html>
 </body>
 </html>'''
 
+# Function to generate HTML from nested content
+def generate_content_html(content, level=0):
+    html = ""
+    if isinstance(content, str):  # Plain text sections (e.g., intro, final_take)
+        html += f'<p>{content}</p>'
+    elif isinstance(content, list):  # Lists (e.g., intro, cost_breakdown)
+        html += '<ul>'
+        for item in content:
+            if isinstance(item, dict):
+                if "label" in item and "text" in item:
+                    html += f'<li><strong>{item["label"]}:</strong> {item["text"]}'
+                    if "subitems" in item:
+                        html += generate_content_html(item["subitems"])
+                    html += '</li>'
+                elif "text" in item:
+                    html += f'<li>{item["text"]}</li>'
+                elif "title" in item:  # For steps, attractions
+                    html += generate_content_html(item)
+                else:
+                    html += generate_content_html(item)  # Recurse into dict
+            else:
+                html += f'<li>{item}</li>'  # Plain string in list
+        html += '</ul>'
+    elif isinstance(content, dict):  # Nested sections (e.g., steps, attractions)
+        for key, value in content.items():
+            if key == "title":
+                html += f'<h{2 if level == 0 else 3}>{value}</h{2 if level == 0 else 3}>'
+            elif key in ["intro", "recommendation"] and isinstance(value, str):
+                html += f'<p>{value}</p>'
+            elif key in ["steps", "details", "pros", "cons", "yes", "no", "cost_breakdown", "timing_example", "compared", "time", "tips"]:
+                if key in ["pros", "yes"]:
+                    html += '<p><strong>{}:</strong></p>'.format("Pros" if key == "pros" else "Yes, If")
+                elif key in ["cons", "no"]:
+                    html += '<p><strong>{}:</strong></p>'.format("Cons" if key == "cons" else "No, If")
+                html += generate_content_html(value, level + 1)
+            elif key == "items":  # Attractions list
+                for item in value:
+                    html += f'<h3>{item["title"]}</h3>'
+                    html += generate_content_html(item["details"], level + 1)
+            elif key == "subitems":
+                html += generate_content_html(value, level + 1)
+    return html
+
 # Generate main day4.html
 main_content = '<ul>'
 for key, section in data["overview"].items():
-    file_name = key.replace("_", "-")  # e.g., "route_overview" -> "route-overview"
+    file_name = key.replace("_", "-")
     main_content += f'<li><strong class="top-level">{section["title"]}:</strong> {section["description"]} [<a href="{file_name}.html">Details</a>]</li>'
 main_content += '</ul>'
 with open('day4/day4.html', 'w', encoding='utf-8') as f:
@@ -41,9 +85,8 @@ with open('day4/day4.html', 'w', encoding='utf-8') as f:
 
 # Generate subpages
 for key, section in data["overview"].items():
-    file_name = key.replace("_", "-")  # e.g., "route_overview" -> "route-overview"
-    content_html = section["content"].replace("\n", "<br>").replace("<br><br>", "</p><p>").replace("### ", "<h2>").replace("</h2>", "</h2><p>").replace("#### ", "<h3>").replace("</h3>", "</h3><p>")
-    content_html = f'<p>{content_html}</p>'
+    file_name = key.replace("_", "-")
+    content_html = generate_content_html(section["content"])
     with open(f'day4/{file_name}.html', 'w', encoding='utf-8') as f:
         f.write(template.format(
             title=f'Day 4 - {section["title"]}',
