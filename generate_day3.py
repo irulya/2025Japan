@@ -36,7 +36,7 @@ locations = {
     "230pm": "Akihabara Electric Town, 1-1-1 Soto-Kanda, Chiyoda-ku, Tokyo", # Akihabara
     "4pm": "Takeshita Street, 1-chome Jingumae, Shibuya-ku, Tokyo",      # Takeshita
     "5pm": "Shibuya Crossing, 2-chome-2 Dogenzaka, Shibuya-ku, Tokyo",   # Shibuya Crossing
-    "545pm": "Hachiko Statue, 2-chome-1 Dogenzaka, Shibuya-ku, Tokyo",   # Hachiko
+    "545pm": "Hachiko Statue, 2-chome-2 Dogenzaka, Shibuya-ku, Tokyo",   # Hachiko
     "615pm": "2-chome-19-9 Okubo, Shinjuku City, Tokyo 169-0072, Japan"  # Back to Airbnb
 }
 
@@ -79,7 +79,7 @@ for time, sections in {k: v for k, v in data.items() if k != "overview"}.items()
     
     main_content += '</li></ul></li>'
     prev_time = time
-main_content += '</ul>\n<ul><li><a href="../shopping.html">Affordable, High-Quality Clothing in Tokyo</a></li></ul>\n<p><a href="../japan_main.html">Back to Main Itinerary</a></p>'
+main_content += '</ul>\n<p><a href="../japan_main.html">Back to Main Itinerary</a></p>'
 with open('day3/day3.html', 'w', encoding='utf-8') as f:
     f.write(template.format(title="Day 3 Overview", header="Day 3 (04/02/25): Skytree Heights, Eastern Culture, and Shibuya Soul", content=main_content))
 
