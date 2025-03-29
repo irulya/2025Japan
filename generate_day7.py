@@ -1,7 +1,25 @@
 import json
 import os
 
-def generate_html(json_file, output_file):
+def generate_detail_page(content, output_file, title):
+    html = f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{title}</title>
+    <style>
+        body {{ font-family: 'Arial', sans-serif; max-width: 800px; margin: 20px auto; }}
+    </style>
+</head>
+<body>
+    <h1>{title}</h1>
+    <p>{content.replace("\n", "<br>")}</p>
+</body>
+</html>'''
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write(html)
+
+def generate_main_page(json_file, output_file):
     with open(json_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
     
@@ -12,11 +30,9 @@ def generate_html(json_file, output_file):
     <title>{data["title"]}</title>
     <style>
         body {{ font-family: 'Arial', sans-serif; max-width: 800px; margin: 20px auto; }}
-        .event {{ border: 1px solid #ddd; padding: 10px; margin-bottom: 10px; border-radius: 5px; }}
+        .event {{ margin-bottom: 10px; }}
         .time {{ font-weight: bold; color: #333; }}
-        .base {{ font-size: 1.2em; margin: 5px 0; }}
-        .places {{ margin-left: 20px; }}
-        .substop {{ margin-left: 20px; font-style: italic; }}
+        .links {{ margin-left: 20px; }}
     </style>
 </head>
 <body>
@@ -25,37 +41,42 @@ def generate_html(json_file, output_file):
     <p><b>Overview:</b> {data["overview"]}</p>
 '''
     
+    os.makedirs('day7', exist_ok=True)
     for time, details in data.items():
         if time in ["day", "title", "overview"]:
             continue
+        time_str = time.replace("am", " AM").replace("pm", " PM")
         html += '<div class="event">\n'
-        html += f'    <span class="time">{time.replace("am", " AM").replace("pm", " PM")}</span>\n'
-        html += f'    <div class="base">{details["base"]}</div>\n'
-        html += f'    <p><b>Why It’s a Must-See:</b> {details["why_it’s_a_must_see"]}</p>\n'
-        html += f'    <p><b>Short Story:</b> {details["short_story"]}</p>\n'
-        html += f'    <p><b>Long Story:</b> {details["long_story"]}</p>\n'
-        html += f'    <p><b>Facts:</b> {details["facts"].replace("\n", "<br>")}</p>\n'
-        html += f'    <p><b>Walk:</b> {details["walk"]}</p>\n'
-        if details["places"]:
-            html += '    <div class="places"><b>Places:</b><ul>\n'
-            for place in details["places"]:
-                html += f'        <li>{place.replace("\n", "<br>")}</li>\n'
-            html += '    </ul></div>\n'
+        html += f'    <span class="time">{time_str}</span> - {details["base"]}<br>\n'
+        html += f'    <b>Why It’s a Must-See:</b> {details["why_it’s_a_must_see"]}<br>\n'
+        html += '    <div class="links">\n'
+        html += f'        <a href="short_story_{time}.html">[Short Story]</a>\n'
+        html += f'        <a href="long_story_{time}.html">[Long Story]</a>\n'
+        html += f'        <a href="facts_{time}.html">[Facts]</a>\n'
+        html += f'        <a href="travel_{time}.html">[Travel]</a>\n'
+        html += f'        <a href="{details["walk"].split("Route: ")[-1]}">Route from {time_str}</a>\n'
+        html += '    </div>\n'
+        # Add substops inline
         for key, value in details.items():
             if key.startswith("substop_"):
                 substop_name = key.replace("substop_", "").replace("_", " ").title()
-                html += f'    <div class="substop"><b>{substop_name}:</b> {value}</div>\n'
+                html += f'    <div><i>{substop_name}: {value}</i></div>\n'
         html += '</div>\n'
+        
+        # Generate detail pages
+        generate_detail_page(details["short_story"], f'day7/short_story_{time}.html', f'Short Story - {time_str}')
+        generate_detail_page(details["long_story"], f'day7/long_story_{time}.html', f'Long Story - {time_str}')
+        generate_detail_page(details["facts"], f'day7/facts_{time}.html', f'Facts - {time_str}')
+        generate_detail_page(details["walk"], f'day7/travel_{time}.html', f'Travel - {time_str}')
     
     html += '''</body>
 </html>'''
     
-    os.makedirs('day7', exist_ok=True)
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(html)
 
-# Generate HTML for railway-museum.json
-generate_html('railway-museum.json', 'day7/railway-museum.html')
+# Generate for railway-museum.json
+generate_main_page('railway-museum.json', 'day7/railway-museum.html')
 
 # Placeholder for philosophers-path.json
 stub_data = {
@@ -74,4 +95,4 @@ stub_data = {
 }
 with open('philosophers-path.json', 'w', encoding='utf-8') as f:
     json.dump(stub_data, f, indent=4)
-generate_html('philosophers-path.json', 'day7/philosophers-path.html')
+generate_main_page('philosophers-path.json', 'day7/philosophers-path.html')
