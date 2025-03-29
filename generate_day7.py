@@ -54,16 +54,15 @@ def generate_main_page(json_file, output_file):
         html += f'        <a href="long_story_{time}.html">[Long Story]</a>\n'
         html += f'        <a href="facts_{time}.html">[Facts]</a>\n'
         html += f'        <a href="travel_{time}.html">[Travel]</a>\n'
-        html += f'        <a href="{details["walk"].split("Route: ")[-1]}">Route from {time_str}</a>\n'
+        route_url = details["walk"].split("Route: ")[-1]
+        html += f'        <a href="{route_url}?hl=en" target="_blank">Route from {time_str}</a>\n'
         html += '    </div>\n'
-        # Add substops inline
         for key, value in details.items():
             if key.startswith("substop_"):
                 substop_name = key.replace("substop_", "").replace("_", " ").title()
                 html += f'    <div><i>{substop_name}: {value}</i></div>\n'
         html += '</div>\n'
         
-        # Generate detail pages
         generate_detail_page(details["short_story"], f'day7/short_story_{time}.html', f'Short Story - {time_str}')
         generate_detail_page(details["long_story"], f'day7/long_story_{time}.html', f'Long Story - {time_str}')
         generate_detail_page(details["facts"], f'day7/facts_{time}.html', f'Facts - {time_str}')
