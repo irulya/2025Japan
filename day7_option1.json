@@ -1,0 +1,37 @@
+[
+    {
+        "time": "9:00 AM",
+        "activity": "Visit Osaka Castle",
+        "description": "Explore the historic Osaka Castle, a key landmark of the city.",
+        "image": "TBD_osaka_castle.jpg",
+        "link": ""
+    },
+    {
+        "time": "11:30 AM",
+        "activity": "Travel to Nara",
+        "description": "Take a train from Osaka to Nara (approx. 1 hour).",
+        "image": "TBD_train.jpg",
+        "link": "https://www.google.com/maps/dir/Osaka+Castle,+Osaka,+Japan/Nara,+Japan"
+    },
+    {
+        "time": "1:00 PM",
+        "activity": "Visit Todai-ji Temple",
+        "description": "See the Great Buddha at this iconic Nara temple.",
+        "image": "TBD_todaiji.jpg",
+        "link": ""
+    },
+    {
+        "time": "3:00 PM",
+        "activity": "Explore Nara Park",
+        "description": "Walk among the deer and enjoy the scenic park.",
+        "image": "TBD_nara_park.jpg",
+        "link": "https://www.google.com/maps/dir/Todai-ji+Temple,+Nara,+Japan/Nara+Park,+Nara,+Japan"
+    },
+    {
+        "time": "5:30 PM",
+        "activity": "Return to Osaka",
+        "description": "Head back to Osaka for the evening (approx. 1 hour).",
+        "image": "TBD_train.jpg",
+        "link": "https://www.google.com/maps/dir/Nara+Park,+Nara,+Japan/Osaka,+Japan"
+    }
+]

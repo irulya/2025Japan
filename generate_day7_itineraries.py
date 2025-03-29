@@ -4,6 +4,10 @@ import os
 def generate_html(json_file, output_file):
     with open(json_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
+    
+    # Debug: Print the first stop to verify data
+    print(f"Debugging {json_file}:")
+    print(json.dumps(data['itinerary'][0], indent=2))
 
     html = f"""<!DOCTYPE html>
 <html lang="en">
@@ -49,15 +53,15 @@ def generate_html(json_file, output_file):
     for i, stop in enumerate(data['itinerary'], 1):
         stop_id = f"stop{i}"
         html += f"""    <h2 id="{stop_id}-base">{stop['time']} - {stop['location']}</h2>
-    <p>{stop['base']}</p>
+    <p>{stop.get('base', 'Missing Base')}</p>
     <h2 id="{stop_id}-must-see">Must See</h2>
-    <p>{stop['must_see']}</p>
+    <p>{stop.get('must_see', 'Missing Must See')}</p>
     <h2 id="{stop_id}-short-story">Short Story</h2>
-    <p>{stop['short_story']}</p>
+    <p>{stop.get('short_story', 'Missing Short Story')}</p>
     <h2 id="{stop_id}-long-story">Long Story</h2>
-    <p>{stop['long_story']}</p>
+    <p>{stop.get('long_story', 'Missing Long Story')}</p>
     <h2 id="{stop_id}-sub-stop">Sub-Stop: {stop['sub_stop']['name']}</h2>
-    <p>{stop['sub_stop']['details']}</p>
+    <p>{stop['sub_stop'].get('details', 'Missing Sub-Stop Details')}</p>
 """
 
     html += """    <p><a href="day7.html">Back to Day 7 Menu</a></p>
@@ -68,6 +72,6 @@ def generate_html(json_file, output_file):
         f.write(html)
 
 if __name__ == "__main__":
-    os.makedirs("day7", exist_ok=True)
-    generate_html("railway-museum.json", "day7/railway-museum.html")
-    generate_html("philosophers-path.json", "day7/philosophers-path.html")
+    os.makedirs("E:/misc/Travel/2025Japan/day7", exist_ok=True)
+    generate_html("E:/misc/Travel/2025Japan/railway-museum.json", "E:/misc/Travel/2025Japan/day7/railway-museum.html")
+    generate_html("E:/misc/Travel/2025Japan/philosophers-path.json", "E:/misc/Travel/2025Japan/day7/philosophers-path.html")

@@ -1,79 +1,14 @@
 {
     "day": "Day 7 (04/06/25)",
-    "title": "With Philosopher’s Path",
-    "overview": "Start 9:00 AM, end 6:00 PM (~9 hours), ~¥5,000 total (adjusted for new route).",
-    "itinerary": [
-        {
-            "time": "9:00 AM",
-            "location": "Hotel Vischio Kyoto (15 min)",
-            "base": "Kick off at your sleek hotel near Kyoto Station—grab breakfast from the lobby or a nearby stall. See the Hachijo Exit bustle, trains humming, a slice of Kyoto’s modern pulse.",
-            "must_see": "Your launchpad sits at Kyoto’s heart—where old meets new in a transit hub.",
-            "short_story": "The 14-year-old snags a rice ball, “Quick fuel!”—ready for the day’s haul.",
-            "long_story": "You’re at Hotel Vischio Kyoto by GRANVIA, steps from Kyoto Station’s south side—built 1997, a steel-and-glass giant that’s swallowed the old city’s gate. The lobby’s quiet, but outside, the Hachijo Exit churns—commuters, tourists, taxis lining up. A vendor hawks bento near the corner, a nod to Japan’s rail food tradition since the 1880s. You grab a bite—maybe tamagoyaki or fish—and watch the morning unfold, a microcosm of Kyoto’s blend of haste and heritage. It’s your base for today’s dive into the city’s layers.",
-            "sub_stop": {
-                "name": "Station View (5 min)",
-                "details": "Peek at Kyoto Station’s facade—see its futuristic grid, a 1990s marvel over ancient streets."
-            }
-        },
-        {
-            "time": "9:15 AM",
-            "location": "Nijo Castle (1 hr 30 min, walk 300m to Kyoto Station, JR San-in Line to Nijo, ~10 min, ¥200/adult, ¥1,200 total)",
-            "base": "Enter the shogun’s world at Nijo Castle—built 1603, its moats and walls guard a palace of creaking floors and painted screens. See Ninomaru Palace’s tatami rooms and the serene garden outside. Teens hunt ninja echoes, all soak in history.",
-            "must_see": "Shogun power frozen in time—Kyoto’s feudal past lives in every squeak.",
-            "short_story": "The 16-year-old steps on a floorboard—“It’s chirping at me!”—laughter bounces off the walls.",
-            "long_story": "A quick train from Kyoto Station drops you at Nijo Castle, Tokugawa Ieyasu’s 1603 stronghold—Kyoto’s shogun seat when Edo (Tokyo) wasn’t enough. The Ninomaru Palace greets you, its Nightingale Floors squeaking underfoot—designed to catch intruders, a 17th-century alarm. Gold-leaf screens glow with tigers and pines, painted for power, not peace. Outside, the garden’s rocks and ponds, laid in 1626, mirror Kyoto’s Zen calm—a shogun’s retreat from war. Teens prowl for ninja ghosts; adults trace a dynasty’s fall. It’s raw history, still whispering.",
-            "sub_stop": {
-                "name": "Garden Overlook (15 min)",
-                "details": "Stand at Ninomaru Garden’s edge—see sculpted stones and a pond, a 1626 design unchanged."
-            }
-        },
-        {
-            "time": "10:45 AM",
-            "location": "Philosopher’s Path (1 hr 30 min, JR San-in Line to Kyoto Station, JR Nara Line to Tofukuji, Keihan Line to Gion-Shijo, ~30 min, ¥400/adult, ¥2,400 total; walk 1 km, ~15 min)",
-            "base": "Walk this 2 km cherry blossom canal—sakura arch over water from Ginkakuji to near Nanzenji. See petals drift, small shrines dot the path, a thinker’s quiet stretch. Teens snap the pink tunnel, all feel Kyoto’s soul.",
-            "must_see": "Sakura season’s star—Kyoto’s beauty and calm in one famous stroll.",
-            "short_story": "The 14-year-old stops mid-path—“It’s a pink wall!”—phone out, capturing petals.",
-            "long_story": "You ride from Nijo to Kyoto Station, then hop trains to Gion-Shijo—30 minutes of urban hum before stepping onto Philosopher’s Path, a canal carved in the 1890s. In April 2025, cherry blossoms peak—hundreds of trees line the 2 km stretch, their pink canopy a living roof. Named for Nishida Kitaro, a 20th-century philosopher who walked here, it’s a meditative artery in northeast Kyoto. Small shrines peek out—offerings left by locals—while petals float on the water, a spring ritual since the Heian era. Teens chase shots; adults breathe history. It’s Kyoto’s fleeting essence, framed by nature.",
-            "sub_stop": {
-                "name": "Daimonji View (15 min)",
-                "details": "Pause near the path’s north end—see Daimonji Hill, where a giant kanji burns each August, a distant echo of Kyoto’s fire festival."
-            }
-        },
-        {
-            "time": "11:45 AM",
-            "location": "Toji Temple (1 hr, Keihan Line to Toba-kaido, walk 1 km, ~15 min)",
-            "base": "Reach Toji Temple’s quiet grounds—its five-story pagoda, Japan’s tallest, pierces the sky. See Buddhist statues in the Kodo Hall, a treasure from 796. Teens snap the tower, all feel the stillness.",
-            "must_see": "Kyoto’s ancient faith stands tall—oldest pagoda, timeless serenity.",
-            "short_story": "The 16-year-old tilts a phone up—“That’s huge!”—the pagoda fills the screen.",
-            "long_story": "From Philosopher’s Path, you ride to Toba-kaido and walk to Toji Temple—founded 796 by Emperor Kammu, Kyoto’s first guardian when it became capital. The five-story pagoda rises 55 meters, built 883, rebuilt after fires—wooden tiers gleam against the sky, Japan’s tallest still standing. Inside Kodo Hall, 15 Buddhist statues from the 9th century stare down, carved for a sect that faded. The grounds hush the city—once a market site, now a calm echo of Heian-era faith. Teens frame the tower; adults catch history’s weight. It’s Kyoto before the crowds.",
-            "sub_stop": {
-                "name": "Kodo Hall Statues (10 min)",
-                "details": "Step into Kodo—see 15 wooden Buddhas, 1200 years old, their gaze stern and silent."
-            }
-        },
-        {
-            "time": "2:15 PM",
-            "location": "Teramachi Street Shopping (2 hr, Keihan Line to Shijo, ~15 min, ¥260/adult, ¥1,560 total; walk 500m, ~10 min)",
-            "base": "Stroll this covered arcade—shops cram a narrow lane with manga, souvenirs, and snacks. See teens browsing anime, adults hunting antiques, taiyaki stalls sizzling. A 16th-century trade street turned modern bazaar.",
-            "must_see": "Kyoto’s merchant spirit thrives—history meets today’s quirky haul.",
-            "short_story": "The 14-year-old grabs a taiyaki—“Hot and sweet!”—manga tucked under arm.",
-            "long_story": "From Toji, you ride to Shijo and walk to Teramachi Street—named “Temple Town” since Toyotomi Hideyoshi shifted shrines here in 1590. The arcade’s tight, 5 meters wide, but runs 1 km—merchants once dodged taxes with slim fronts, a trick from the 1600s. Manga shops pile One Piece high, teens flipping pages, while antique stalls flash Edo-era fans. Taiyaki wafts from carts, a 1900s treat reborn—red-bean filling in crispy shells. It’s Kyoto’s past and present colliding, a shopper’s time capsule.",
-            "sub_stop": {
-                "name": "Manga Corner (15 min)",
-                "details": "Duck into a manga shop—see stacks of Naruto, teens haggling over rare finds."
-            }
-        },
-        {
-            "time": "4:15 PM",
-            "location": "Return to Hotel Vischio Kyoto (1 hr, subway Karasuma Line to Kyoto Station, ~15 min, ¥260/adult, ¥1,560 total; walk 300m)",
-            "base": "Subway back to Kyoto Station—end at your hotel after a full day. See evening lights flare, station crowds thinning, maybe grab dinner nearby.",
-            "must_see": "Kyoto’s hub closes your loop—convenience with a city pulse.",
-            "short_story": "The 16-year-old flops down—“That was a haul!”—bags rustle with loot.",
-            "long_story": "You board the Karasuma Line at Shijo, a quick ride to Kyoto Station—built 1997, its grid-like roof a modern stamp on Kyoto’s ancient slate. The subway hums with locals, a contrast to Teramachi’s chatter. Back at the station, you walk 300m to Hotel Vischio—Hachijo Exit glows softer now, evening settling in. It’s been a day of castles, trains, temples, and trades—Kyoto’s layers unpacked. You drop bags, maybe hit a ramen spot nearby, and call it at 6:00 PM—a tight, rich circuit complete.",
-            "sub_stop": {
-                "name": "Station Plaza (10 min)",
-                "details": "Pause at Kyoto Station’s south plaza—see the open square, a last city breath."
-            }
-        }
-    ]
+    "title": "Kyoto with Philosopher\u2019s Path",
+    "overview": "Start 9:00 AM, end 6:00 PM (~9 hours), ~\u00a55,000 total.",
+    "0900am": {
+        "base": "TBD",
+        "why_it\u2019s_a_must_see": "TBD",
+        "short_story": "TBD",
+        "long_story": "TBD",
+        "facts": "TBD",
+        "walk": "TBD",
+        "places": []
+    }
 }

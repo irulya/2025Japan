@@ -1,0 +1,30 @@
+[
+    {
+        "time": "10:00 AM",
+        "activity": "Visit Harborland",
+        "description": "Stroll along the waterfront and enjoy the views.",
+        "image": "TBD_harborland.jpg",
+        "link": ""
+    },
+    {
+        "time": "12:00 PM",
+        "activity": "Explore Meriken Park",
+        "description": "Check out the Earthquake Memorial and modern art.",
+        "image": "TBD_meriken.jpg",
+        "link": "https://www.google.com/maps/dir/Harborland,+Kobe,+Japan/Meriken+Park,+Kobe,+Japan"
+    },
+    {
+        "time": "2:00 PM",
+        "activity": "Lunch in Chinatown",
+        "description": "Enjoy a meal in Kobe’s vibrant Chinatown district.",
+        "image": "TBD_chinatown.jpg",
+        "link": "https://www.google.com/maps/dir/Meriken+Park,+Kobe,+Japan/Kobe+Chinatown,+Kobe,+Japan"
+    },
+    {
+        "time": "4:00 PM",
+        "activity": "Visit Ikuta Shrine",
+        "description": "A peaceful Shinto shrine in the heart of Kobe.",
+        "image": "TBD_ikuta.jpg",
+        "link": "https://www.google.com/maps/dir/Kobe+Chinatown,+Kobe,+Japan/Ikuta+Shrine,+Kobe,+Japan"
+    }
+]
